@@ -22,4 +22,6 @@ if __name__ == "__main__":
     result = extract_outline("input.pdf")
     with open("outline.json", "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
-    print("✅ Outline written to outline.json")
+
+    print("✅ Outline written to outline .json")
+    
